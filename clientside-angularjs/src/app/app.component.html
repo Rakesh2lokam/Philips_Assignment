@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Philips Assignment</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active">
+        <button class="btn btn-primary navbar-btn" (click)="startFunction()">Start</button>
+      </li>
+      <li>
+        <button class="btn btn-danger navbar-btn" (click)="stopFunction()">stop</button>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">250Hz
+          <span class="caret"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container chart-display">
+
+  <div id="chart1" class="chart-box"></div>
+  <div id="chart2" class="chart-box"></div>
+  <div id="chart3" class="chart-box"></div>
+  <div id="chart4" class="chart-box"></div>
+  <div id="chart5" class="chart-box"></div>
+
+</div>

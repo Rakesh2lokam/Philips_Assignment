@@ -1,0 +1,12 @@
+.chart-box {
+  max-height: 80px;
+  max-width: 1000px;
+}
+
+.c3-axis-y .tick {
+  display: none;
+}
+
+.chart-display {
+  max-height: 100%;
+}
